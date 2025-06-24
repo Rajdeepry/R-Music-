@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🎵 Perfect Music Player</h1>
+      <p class="tagline">Feel the Beat. Own the Night.</p>
+    </header>
+
+    <div class="player">
+      <img id="cover" src="album.png" alt="Album Cover">
+
+      <h2 id="title">Song Title</h2>
+      <h3 id="artist">Artist Name</h3>
+
+      <audio id="audio" src=""></audio>
+         
+
+
+
+      
+
+      <input type="range" id="progress" value="0">
+
+      <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+      </div>
+
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+  
+<footer>
+      <p class="branding">Rmusic 🎧</p>
+    </footer>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+ /* https://grabient.com/HQRgrAzANKAcAsMQHYBMSwE4atrHI6wYYIMyFMAbLAAw50P3C70C0toVYMpzsEKlFpA/ */
+
+background: linear-gradient(90deg, rgba(0, 0, 0, 1.000) 0.000%, rgba(0, 0, 0, 1.000) 50.000%, rgba(0, 39, 18, 1.000) 100.000%)
+}
+
+.container {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+
+.player {
+  background: #835252;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 350px;
+  margin: auto;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+#cover {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+#progress {
+  width: 100%;
+  margin: 15px 0;
+  accent-color: #17127a;
+}
+.tagline {
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  color: #b0b0b0ed;
+  margin-bottom: 30px;
+}
+
+.branding {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.controls button {
+  margin: 0 15px;
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #091550d5;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.controls button:hover {
+  background: #000000;
+  transform: scale(1.1);
+}
+
+#volume {
+  width: 100%;
+  accent-color: #17127a;
+}
